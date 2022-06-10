@@ -1,0 +1,113 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+local UI = Material.Load({
+     Title = "Astrix's Awesome GUI",
+     Style = 3,
+     SizeX = 300,
+     SizeY = 400,
+     Theme = "Dark"
+})
+
+local Page1 = UI.New({
+    Title = "Options/Use"
+})
+local Page2 = UI.New({
+    Title = "ServerLaggerV2"
+})
+local Page3 = UI.New({
+    Title = "Made by: Astrix8199"
+})
+
+Page1.Button({
+    Text = "Use Roka",
+    Callback = function()
+        local ohString1 = "roka" 
+        game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1) 
+    end
+})
+Page1.Button({
+    Text = "Use Arrow",
+    Callback = function()
+      local ohString1 = "arrow" 
+        game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1)
+    end
+})
+
+Page1.Button({
+    Text = "Use Ribcage",
+    Callback = function()
+      local ohString1 = "ribcage" 
+        game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1)
+    end
+})
+
+Page1.Button({
+    Text = "Use Skull",
+    Callback = function()
+      local ohString1 = "skull" 
+        game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1)
+    end
+})
+local B = Page1.Toggle({
+    Text = "Wombo Combo",
+    Callback = function(isinfpunching)
+    _isinfpunching = isinfpunching 
+    while _isinfpunching do task.wait(0.5)
+local ohString1 = "Fourth"
+game:GetService("ReplicatedStorage").Combat:FireServer(ohString1)
+task.wait(0.1)
+local ohString1 = "Third"
+game:GetService("ReplicatedStorage").Combat:FireServer(ohString1)
+task.wait(0.1)
+local ohString1 = "Second"
+game:GetService("ReplicatedStorage").Combat:FireServer(ohString1)
+task.wait(0.1)
+local ohString1 = "First"
+game:GetService("ReplicatedStorage").Combat:FireServer(ohString1)
+task.wait(0.1)
+end
+    end
+    
+})
+
+Page1.Button({
+    Text = "Use ReqArrow",
+    Callback = function()
+      local ohString1 = "reqarrow" 
+        game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1)
+    end
+})
+
+
+local B = Page1.Toggle({
+    Text = "Start Player Farm",
+    Callback = function(isfarmingstand)
+        _isfarmingstand = isfarmingstand
+        while _isfarmingstand do task.wait()
+            local ohString1 = "arrow"
+            local ohInstance2 = Arrow 
+            game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1, ohInstance2)
+            wait(20)
+            local ohString1 = "roka"
+            local ohInstance2 = RokakakaFruit 
+            game:GetService("ReplicatedStorage").othereffects.ItemRemote:FireServer(ohString1, ohInstance2)
+            wait(1)
+        end
+    end,
+    Enabled = false
+})
+
+local B = Page2.Toggle({
+    Text = "Start Lag",
+    Callback = function(islagging)
+        _islagging = islagging
+        while _islagging do task.wait()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+            game:GetService("ReplicatedStorage").CoreStandRemotes.StartBarrage:FireServer()
+        end
+    end,
+    Enabled = false
+})
