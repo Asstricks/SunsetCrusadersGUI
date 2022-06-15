@@ -1,0 +1,329 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "A Menacing Time line GUI",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 300,
+     Theme = "Light"
+})
+local Page1 = UI.New({
+    Title = "Scripts!"
+})
+local Page2 = UI.New({
+    Title = "Fun stuff!"
+})
+local Page3 = UI.New({
+    Title = "Bosses"
+})
+local Page4 = UI.New({
+    Title = "FarmTP's"
+})
+Page4.Button({
+    Text = "Teleport 1",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-450.41845703125, 2952.687744140625, 3658.564453125)}):Play()
+        end
+   
+})
+
+Page4.Button({
+    Text = "Teleport 2",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-465.52734375, 2952.687744140625, 3748.60400390625)}):Play() 
+        end
+    
+})
+Page4.Button({
+    Text = "Teleport 3",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-464.6460266113281, 2952.849365234375, 3551.57177734375)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 4",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-466.1723327636719, 2952.687744140625, 3397.51611328125)}):Play() 
+    end
+})
+Page4.Button({
+    Text = "Teleport 5",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-213.7679443359375, 2954.445068359375, 3658.407958984375)}):Play() 
+    end
+})
+Page4.Button({
+    Text = "Teleport 6",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-61.61800003051758, 2954.445068359375, 3658.09716796875)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 7",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-15.256806373596191, 2954.44775390625, 3807.588134765625)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 8",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-35.533058166503906, 2952.99462890625, 4241.72998046875)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 9",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(137.9627685546875, 2952.88818359375, 4149.35205078125)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 10",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-141.697265625, 2952.88818359375, 4417.2470703125)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 11",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-56.605777740478516, 2952.88818359375, 4516.10205078125)}):Play()
+        
+    end
+})
+Page4.Button({
+    Text = "Teleport 12",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(155.90774536132812, 2953.097900390625, 3622.270263671875)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 13",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(273.29095458984375, 2953.097900390625, 3649.64697265625)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 14",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(573.05859375, 2953.097900390625, 3527.042236328125)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 15",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(609.274658203125, 2953.096923828125, 3739.11669921875)}):Play() 
+    end
+})
+Page4.Button({
+    Text = "Teleport 16",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(786.2188110351562, 2954.27783203125, 3769.184814453125)}):Play()
+    end
+})
+Page4.Button({
+    Text = "Teleport 17",
+    Callback = function()
+        tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1.4, Enum.EasingStyle.Linear)
+        tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(529.9846801757812, 2952.488037109375, 3922.729736328125)}):Play() 
+    end
+})
+Page1.Button({
+    Text = "Max Speed",
+    Callback = function()
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 80
+local ohInstance1 = workspace.PONYTAILMALTE.Stand.StandLarm.Trail
+local ohBoolean2 = true
+game:GetService("ReplicatedStorage").Trail:FireServer(ohInstance1, ohBoolean2)
+local ohInstance1 = workspace.PONYTAILMALTE.Stand.StandRarm.Trail
+local ohBoolean2 = true
+game:GetService("ReplicatedStorage").Trail:FireServer(ohInstance1, ohBoolean2)
+    end
+})
+Page1.Button({
+    Text = "Max Jump",
+    Callback = function()
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100 
+    end
+    })
+Page2.Toggle({
+    Text = "Ravev1",
+    Callback = function(rave1)
+        _rave1 = rave1
+        while _rave1 do wait(1.0)
+        local ohVector31 = Vector3.new(30, 50, 30) --1.wide  2.Length  3.Hight
+local ohVector32 = Vector3.new(11.30000001192092896, 11.15000000596046448, 11.30000001192092896)
+local ohBrickColor3 = BrickColor.random()
+game:GetService("ReplicatedStorage").StrongPunch:FireServer(ohVector31, ohVector32, ohBrickColor3)
+game:GetService("ReplicatedStorage").Jump:FireServer(ohBrickColor1)
+    end
+    Enabled = true
+    end
+})
+Page2.Toggle({
+    Text = "Ravev2",
+    Callback = function(rave2)
+        _rave2 = rave2
+        while _rave2 do wait(0.2)
+        local ohBrickColor1 = BrickColor.random()
+game:GetService("ReplicatedStorage").Jump:FireServer(ohBrickColor1)
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Kq Coin attack",
+    Callback = function(KQA)
+        _KQA = KQA
+        while _KQA do wait(0.3)
+        game:GetService("ReplicatedStorage").Coin:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Twau Knifespam",
+    Callback = function(KS)
+        _KS = KS
+        while _KS do wait(0.2)
+        game:GetService("ReplicatedStorage").TWAUKnife:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Vamp eyespammer",
+    Callback = function(ve)
+        _ve = ve
+        while _ve do wait(0.2)
+game:GetService("ReplicatedStorage").SpaceRipperStingyEyes:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Mred Crossspam",
+    Callback = function(KFC)
+        _KFC = KFC
+        while _KFC do wait(0.6)
+        game:GetService("ReplicatedStorage").kurospa:FireServer()
+       game:GetService("ReplicatedStorage").kurospasol:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Tusk1 Projectilespam",
+    Callback = function(Tusk1m)
+        _Tusk1m = Tusk1m
+        while _Tusk1m do wait(0.2)
+        game:GetService("ReplicatedStorage").BallThrowTusk:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "D4C CloneSpam",
+    Callback = function(CSM)
+        _CSM = CSM
+        while _CSM do wait(0.6)
+        local ohBoolean1 = false
+game:GetService("ReplicatedStorage").D4CSelfCloneSpawn:FireServer(ohBoolean1)
+    end
+    Enabled = true
+    end
+})
+Page2.Toggle({
+    Text = "Ravev3",
+    Callback = function(ravev3)
+        _ravev3 = ravev3
+        while _ravev3 do wait(0.2)
+        local ohBrickColor1 = BrickColor.random()
+game:GetService("ReplicatedStorage").GroundEffect:FireServer(ohBrickColor1)
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "Kc Infinity timeerase",
+    Callback = function(KCT)
+        _KCT = KCT
+        while _KCT do wait(0.5)
+        game:GetService("ReplicatedStorage").Timeerase:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "GER Scorpionspam",
+    Callback = function(SPAM)
+        _SPAM = SPAM
+        while _SPAM do wait(0.2)
+        local ohVector31 = Vector3.new(661.4114379882812, 2952.5888671875, 3729.853271484375)
+
+game:GetService("ReplicatedStorage").ScorpionThrow2:FireServer(ohVector31)
+end
+    Enabled = true
+    end
+})
+Page1.Toggle({
+    Text = "CrazyDiamond HealServerSpam",
+    Callback = function(crazydia)
+        _crazydia = crazydia
+        while _crazydia do wait(0.2)
+        for i,v in pairs(game.Players:GetPlayers()) do
+  local ohInstance1 = v.Character.Humanoid
+local ohCFrame2 = CFrame.new(574.515564, 2954.13208, 3651.09985, -0.629911244, 0.739262223, -0.238124013, 0.380601168, 0.0265576839, -0.924357891, -0.677018881, -0.672893643, -0.298093021)
+local ohNumber3 = 50
+local ohNumber4 = 0
+local ohNil5 = nil
+local ohString6 = "rbxassetid://245751634"
+local ohNumber7 = 0.075
+local ohColor38 = Color3.new(255, 255, 0)
+local ohString9 = "rbxassetid://2914074987"
+local ohNumber10 = 2.2
+local ohNumber11 = 0.18
+
+game:GetService("ReplicatedStorage").HealCD:FireServer(ohInstance1, ohCFrame2, ohNumber3, ohNumber4, ohNil5, ohString6, ohNumber7, ohColor38, ohString9, ohNumber10, ohNumber11)
+end
+    end
+    Enabled = true
+    end
+})
+Page2.Toggle({
+    Text = "Ravev4",
+    Callback = function(ravev4)
+        _ravev4 = ravev4
+        while _ravev4 do wait(0.2)
+        game:GetService("ReplicatedStorage").StandAppearParticlesyelow2test:FireServer()
+    end
+    Enabled = true
+    end
+})
+Page3.Toggle({
+    Text = "Auto Damage DIO",
+    Callback = function(DIODMG)
+        _DIODMG = DIODMG
+        while _DIODMG do wait(0.7)
+        print(value)
+    end
+    Enabled = true
+    end
+})
+local Page4 = UI.New({
+    Title = "Owner: Astrix#8199"
+})
